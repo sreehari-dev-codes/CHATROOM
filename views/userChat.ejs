@@ -1,0 +1,16 @@
+<div class="user_info">
+    <% if (locals.user) { %>
+         <% user.forEach(user => { %>
+
+             <li>
+                 <a href="">
+                     <span class="username"><%= user.username %></span>
+                 </a>
+             </li>
+          
+         <% }) %>
+
+    <% } %>
+ 
+ 
+ </div>
